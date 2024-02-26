@@ -1,0 +1,16 @@
+python main.py \
+    --exp_name "mvlen_fd" \
+    --seed 7 \
+    --trials 5 \
+    --user_counts 4000 \
+    --methods "FD_CoTeR" "FD_FairCo" \
+    --mask_rate 0.2 \
+    --cot_top_rate 0.5 \
+    --top_k 10 \
+    --dataset "../data/mv_len/movie_comp_200/" \
+    --start_doc_num 50 \
+    --doc_num 200 \
+    --user_emb 50 \
+    --doc_entry_type "random" \
+    --movie_emb_file "../data/mv_len/movie_emb.csv" \
+    --even

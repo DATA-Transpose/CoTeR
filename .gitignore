@@ -1,0 +1,13 @@
+/.idea/
+__pycache__
+*/__pycache__
+__init__.py
+*/__init__.py
+# data/
+runs/
+.DS_Store 
+*/.DS_Store 
+.vscode
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+results/
