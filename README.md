@@ -11,6 +11,15 @@ conda env create -f environment.yml
 conda activate coter
 ```
 
+## Run an example
+
+Try running the example script to see how the code works:
+
+```bash
+cd src
+sh ./example.sh
+```
+
 ## Cite this work
 
 ```bibtex
